@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Payment</title>
+</head>
+<body>
+
+	<div>
+		
+		<div class="dashboard-header">
+		<div class="dashboard-header-left">
+			<div class="header-image">
+                <img src="images/logo.jpg" class="logos" alt=""></img>
+                </div>
+                <h2><span style="color:blue;">PAMBA</span> <span style="color:grey;"> KALI</span> <span style="color:red">STORE</span></h2>
+		</div>
+		<div class="dashboard-header-right">
+			<div class="dashboard-header-right-links">
+				<a class="linking" href="dashboard.html">Home</a>
+				<a class="linking" href="clothes.html">Clothes</a>
+				<a class="linking" href="shoes.html">Shoes</a>
+				<a class="linking" href="cart.html">Carts</a>
+				<a class="linking" href="about-us.html">About Us</a>
+				<a class="linking" href="contacts.html">Contacts</a>
+			</div>
+			<div>
+				<form action="login.html">
+				<button class="logout-btn">Logout</button>
+			    </form>
+			</div>
+		</div>
+		
+	</div>
+
+
+<div class="buy-container">
+    
+    <h2 style="color:blue;">Package Payment</h2>
+    <p><strong>Mobile number:</strong> +255678999999</p>
+    <p><strong>Total Amount:</strong> 75,000/=</p>
+    <div style="margin-top:10px">
+      <p style="color:red;">You will receive a push notfication to enter the mobile money pin to pay the total amount of the package,after successfully payment you will receive a 6 digit code in your mobile via SMS<br> confirm the purchasing by entering the code into the field below</p>
+    </div>
+    <form action="dashboard.html" method="GET">
+    	<div style="margin-top: 30px; display: flex;flex-direction: column;">
+    		<div class="auth-group">
+      <strong style="margin-bottom: 8px;"><label for="quantity" >Enter Purchasing Code:</label></strong>
+      <input type="number" class="auth-field" id="quantity" name="quantity" maxlength="6" minlength="6" required />
+    </div>
+      <button type="submit" class="auth-btn" style="margin-top:10px">Confirm</button>
+  </div>
+    </form>
+  </div>
+
+
+	</div>
+
+</body>
+</html>

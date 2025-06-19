@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Confirmation</title>
+</head>
+<body>
+<div>
+<div class="dashboard-header">
+        <div class="dashboard-header-left">
+            <div class="header-image">
+                <img src="images/logo.jpg" class="logos" alt=""></img>
+                </div>
+                <h2><span style="color:blue;">PAMBA</span> <span style="color:grey;"> KALI</span> <span style="color:red">STORE</span></h2>
+        </div>
+        <div class="dashboard-header-right">
+            <div class="dashboard-header-right-links">
+                <a class="linking" href="dashboard.html">Home</a>
+                <a class="linking" href="clothes.html">Clothes</a>
+                <a class="linking" href="shoes.html">Shoes</a>
+                <a class="linking" href="cart.html">Carts</a>
+                <a class="linking" href="about-us.html">About Us</a>
+                <a class="linking" href="contacts.html">Contacts</a>
+            </div>
+            <div>
+                <form action="login.html">
+        <button class="logout-btn">Logout</button>
+          </form>
+            </div>
+        </div>
+        
+    </div>
+    
+
+<div class="confirm-container">
+    <h2>Enter Delivery Details</h2>
+    <form action="confirm-shoe.html">
+        <div class="auth-group">
+      <strong><label for="address">Region:</label></strong>
+      <input type="text" id="region" name="region" class="auth-field" required />
+      </div>
+      <div class="auth-group">
+      <strong><label for="mobile">District:</label></strong>
+      <input type="text" id="district" name="district" class="auth-field" required />
+      </div>
+      <div class="auth-group">
+      <strong><label for="place">Place:(Ward,Village)</label></strong>
+      <input type="text" id="place" name="place" class="auth-field" required />
+       </div>
+       <div class="auth-group">
+      <strong><label for="address">Address:</label></strong>
+      <input type="text" id="address" name="address" class="auth-field" required />
+      </div>
+      <div class="auth-group">
+      <strong><label for="mobile">Mobile Number:</label></strong>
+      <input type="text" id="mobile" name="mobile" class="auth-field" required />
+      <div class="auth-group">
+      <strong><label for="place">Email:</label></strong>
+      <input type="email" id="email" name="email" class="auth-field" required />
+      </div>
+      <button type="submit" class="auth-btn">Place Order</button>
+    </form>
+  </div>
+
+
+
+
+</div>
+</body>
+</html>
